@@ -1,0 +1,6 @@
+framework module MDHttpTest {
+  umbrella header "MDHttpTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

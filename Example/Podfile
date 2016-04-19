@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'MDHttpTest_Example', :exclusive => true do
+  pod 'MDHttpTest', :path => '../'
+end
+
+target 'MDHttpTest_Tests', :exclusive => true do
+  pod 'MDHttpTest', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
